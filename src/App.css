@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.logo img {
+    width: 15%;
+    padding: 10px 0px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: space-between;
+}
+.themeSelector span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 1px solid rgb(242, 241, 241);
+    cursor: pointer;
+}
+
+.light {
+    background-color: lightblue;
+} 
+
+.medium {
+    background-color: white;
+} 
+
+.dark {
+    background-color: black;
+}
+
+.gOne {
+    background-color: yellow;
+}
+
+.gTwo {
+    background-color: lightgreen;
+}
+
+.gThree {
+    background-color: brown;
+}
+
+
+
+
+/* addtask */
+.addTask {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.addTask input {
+    border: 1px solid rgb(242, 241, 241);
+    padding: 10px;
+    width: 400px;
+}
+
+.addTask button {
+    border: 1px solid darkgreen;
+    background: darkgreen;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.addTask button:hover {
+    background-color: #0056b3;
+}
+
+.addTask form {
+    display: flex;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* showtask */
+
+/* Main container */
+.showTask {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header section */
+  .showTask .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .showTask .head .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .showTask .head .count {
+    font-size: 1rem;
+    color: #666;
+    margin-left: 10px;
+  }
+  
+  .showTask .head .clearall {
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .showTask .head .clearall:hover {
+    background-color: #ff0000;
+  }
+  
+  /* Task list */
+  .showTask ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .showTask li {
+    display: -webkit-inline-box;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease;
+    margin-right: 15px;
+    text-align: left;
+    border-left: 5px solid skyblue
+  }
+  
+  .showTask li:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Task details */
+  .showTask li p {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .showTask li .name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .showTask li .time {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  /* Icons */
+  .showTask li .fa-pen-to-square,
+  .showTask li .fa-trash {
+    font-size: 1.2rem;
+    color: #555;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .showTask li .fa-pen-to-square:hover {
+    color: #007bff; /* Blue for edit icon */
+  }
+  
+  .showTask li .fa-trash:hover {
+    color: #ff5252; /* Red for delete icon */
+  }
+  
