@@ -31,32 +31,6 @@ header {
     cursor: pointer;
 }
 
-.light {
-    background-color: lightblue;
-} 
-
-.medium {
-    background-color: white;
-} 
-
-.dark {
-    background-color: black;
-}
-
-.gOne {
-    background-color: yellow;
-}
-
-.gTwo {
-    background-color: lightgreen;
-}
-
-.gThree {
-    background-color: brown;
-}
-
-
-
 
 /* addtask */
 .addTask {
@@ -70,6 +44,12 @@ header {
     border: 1px solid rgb(242, 241, 241);
     padding: 10px;
     width: 400px;
+}
+
+.addTask input:focus {
+  outline: none;
+  border-color: rgb(242, 241, 241); /* Keep the same color */
+  box-shadow: none; /* Remove any glow or shadow */
 }
 
 .addTask button {
@@ -91,7 +71,6 @@ header {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 /* showtask */
 

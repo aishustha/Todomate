@@ -1,0 +1,39 @@
+.light {
+    background-color: #FFFFFF;
+    transition: all 500ms;
+}
+
+.medium {
+    background-color: #EFEFEF;
+    transition: all 500ms;
+}
+
+.dark {
+    background-color: #15202B;
+    transition: all 500ms;
+}
+
+.gOne {
+    background: linear-gradient(90deg, #d57f6a, #f5bf96);
+    transition: all 500ms ease-in-out;
+}
+
+.gTwo {
+    background: linear-gradient(90deg, #98b869, #9fd58c, #b7b24a);
+    transition: all 500ms ease-in-out;
+}
+
+.gThree {
+    background: linear-gradient(90deg, 
+    #FFFFFF 0%, 
+    rgb(102, 205, 228) 40%, 
+    rgb(97, 76, 227) 80%, 
+    #2b4263 100%);
+    transition: all 500ms ease-in-out;
+}
+
+.activeTheme {
+    width: 25px !important;
+    height: 25px !important;;
+}
+  
